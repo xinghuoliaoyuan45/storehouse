@@ -1,0 +1,8 @@
+http://localhost:8080/storehouse/operate/findallgoods.action  查询所有商品
+http://localhost:8080/storehouse/login/login.html   登录页面 包括超级用户和普通用户
+http://localhost:8080/storehouse/operate/updateproductprice.jsp  修改价格
+http://localhost:8080/storehouse/operate/updateproductnumber.jsp  入库或者出库
+http://localhost:8080/storehouse/operate/operate.jsp   总的操作页面 包括所有连接
+http://localhost:8080/storehouse/operate/addproduct.jsp 添加商品
+http://localhost:8080/storehouse/operate/findbyname.jsp 模糊查询
+

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+          "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+          "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+
+<struts>
+	<package name="struts2xxxx"  extends="struts-default">
+		<action name="loginpublic" class="action.LoginAction" method="execute">
+			<result name="success">/operate/operate.jsp</result>
+			<result name="error" type="redirect">/login/login.html</result>	
+			<result name="success1">/manager/manager.html</result>
+		</action>		
+		
+		<action name="adduser" class="action.AddUser" method="execute">
+			<result name="success">/manager/success.jsp</result>			
+		</action>
+		<action name="deluser" class="action.DelUser" method="execute">
+			<result name="success">/manager/success.jsp</result>			
+		</action>
+		<action name="findallgoods" class="action.FindAllGoods" method="execute">
+			<result name="success">/operate/showallproduct.jsp</result>			
+		</action>
+		<action name="outgoods" class="action.updateGoodsnumber" method="execute">
+			<result name="success">/success.jsp</result>			
+		</action>
+		<action name="updateprice" class="action.updateGoodsprice" method="execute">
+			<result name="success">/success.jsp</result>			
+		</action>
+		<action name="addgoods" class="action.AddGoods" method="execute">
+			<result name="success">/success.jsp</result>			
+		</action>
+		<action name="selectlikename" class="action.FindLikeName" method="execute">
+			<result name="success">/operate/showselectproduct.jsp</result>			
+		</action>		
+	</package>
+</struts>
+

@@ -1,0 +1,18 @@
+
+create table goods
+(
+  goods_id bigint  identity primary key ,
+  goods_name varchar(15) default null,
+  goods_number int default null,
+  goods_price double default null,
+  goods_description varchar(20) default null,          
+)
+
+
+create table user
+(
+  user_id bigint  identity primary key,
+  user_password varchar(20) default null,
+  user_telephone  bigint  default null ,
+  user_email varchar(20) default null,        
+)

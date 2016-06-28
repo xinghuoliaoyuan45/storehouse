@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css"
+	href="http://localhost:8080/storehouse/bootstrap3/css/bootstrap.min2.css" />
+<script
+	src="http://localhost:8080/storehouse/bootstrap3/js/jquery-1.7.2.min.js"></script>
+<script
+	src="http://localhost:8080/storehouse//bootstrap3/js/bootstrap.min2.4.js"></script>
+
+</head>
+<body class="row bg">
+
+	<div ng-app="myApp">
+		<div class="container">
+			<h1 class="page-header">管理页面</h1>
+			<div class="tabbable tabs-left">
+				<ul class="nav nav-tabs">
+					<li class="active"><a href="#tab1" data-toggle="tab">增加管理员</a></li>
+					<li><a href="#tab2" data-toggle="tab"> 删除管理员</a></li>
+				</ul>
+				<div ng-controller="analyzestu">
+					<div class="tab-content">
+						<div class="tab-pane active" id="tab1">
+							<a
+								href="http://localhost:8080/storehouse/manager/adduser.html">
+								增加管理员</a>
+						</div>
+						<div class="tab-pane" id="tab2">
+							<a href="http://localhost:8080/storehouse/manager/deluser.html">
+								删除管理员
+								</p>
+						</div>						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
